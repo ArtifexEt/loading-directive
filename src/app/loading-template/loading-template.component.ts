@@ -14,9 +14,9 @@ export type Position =
   | undefined;
 
   export interface ComponentConfig {
-    color: ThemePalette;
-    diameter: number | undefined;
-    position: Position;
+    color?: ThemePalette;
+    diameter?: number | undefined;
+    position?: Position;
   }
 
 @Component({
@@ -27,7 +27,7 @@ export type Position =
 })
 export class LoadingTemplateComponent {
   public color: ThemePalette;
-  public diameter?: number = 50;
+  public diameter: number = 50;
   public position: Position = 'center';
 
   constructor() { }

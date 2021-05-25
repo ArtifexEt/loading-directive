@@ -1,4 +1,23 @@
-# DirectiveTest
+# Documentation
+Demo page: https://artifexet.github.io/loading-directive/
+
+Examples: 
+
+```
+<div *appLoading="true">Some data</div>
+```
+
+```
+<div *appLoading="true; config: {color: 'warn'}">Some data</div>
+```
+
+
+```
+<div *appLoading="true; template: template">Some data</div>
+<ng-template #template>Loading Template</ng-template>
+```
+
+# Demo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 

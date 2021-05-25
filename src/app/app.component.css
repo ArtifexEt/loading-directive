@@ -1,0 +1,10 @@
+.example-playground {
+    width: 100%;
+    height: 300px;
+    border: 2px solid lightgrey;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: 20px;
+}
